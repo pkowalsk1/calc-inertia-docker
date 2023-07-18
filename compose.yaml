@@ -5,4 +5,4 @@ services:
     volumes:
       - ./meshes:/meshes
     command: >
-      python calc_inertia.py "/meshes/model.stl" 0.025 1
+      python3 calc-inertia/calc_inertia.py "/meshes/model.stl" 3.1 1
